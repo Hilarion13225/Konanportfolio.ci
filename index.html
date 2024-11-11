@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Professionnel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <div class="accueil-content">
+            <h1>KONAN Yao<br> Serge-Hilarion B.</h1>
+            <h2>Développeur Full Stack</h2>
+            <p>Création d'applications web innovantes et performantes</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="apropos">
+        <div class="container">
+            <h2>À Propos</h2>
+            <div class="apropos-content">
+                <div class="apropos-image">
+                    <img 
+                        src="profile.jpg" 
+                        alt="Photo de profil"
+                        width="400" 
+                        height="400"
+                        loading="lazy"
+                    >
+                    <div class="experience-badge">
+                        <span>2+</span>
+                        <span>ans d'exp.</span>
+                    </div>
+                </div>
+                <div class="apropos-text">
+                    <h3>2 ans d'expérience en développement web</h3>
+                    <p>Spécialisé dans la création d'applications web modernes et réactives. 
+                       Expert en React, Node.js et Python.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="number">2</span>
+                            <span>Projets Réalisés</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="number">2</span>
+                            <span>Clients Satisfaits</span>
+                        </div>
+                    </div>
+                    <a href="cv.pdf" class="btn-download">Télécharger CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="projets-grid">
+                <article class="projet">
+                    <div class="projet-image">
+                        <img 
+                            src="projet1.jpg" 
+                            alt="Projet 1"
+                            width="1200"
+                            height="800"
+                            loading="lazy"
+                        >
+                        <div class="projet-overlay">
+                            <div class="projet-links">
+                                <a href="#" class="btn-demo">Voir la démo</a>
+                                <a href="#" class="btn-github">Code source</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projet-content">
+                        <h3>Nom du Projet</h3>
+                        <div class="projet-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <p>Description du projet...</p>
+                    </div>
+                </article>
+                <!-- Répéter pour d'autres projets -->
+            </div>
+        </div>
+    </section>
+
+    <section id="competences">
+        <div class="container">
+            <h2>Compétences</h2>
+            <div class="competences-grid">
+                <div class="competence">
+                    <h3>Front-end</h3>
+                    <ul>
+                        <li>HTML5/CSS3</li>
+                        <li>Tailwindcss</li>
+                        <li>Wordpress</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Vue.js</li>
+                    </ul>
+                </div>
+                <div class="competence">
+                    <h3>Back-end</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>JAVA/JAVA EE</li>
+                        <li>SQL/NoSQL</li>
+                    </ul>
+                </div>
+                <div class="competence">
+                    <h3>Outils</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>Développeur passionné créant des solutions web innovantes et performantes.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens rapides</h3>
+                <ul class="footer-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: yaokonan475@gmail.com</p>
+                <p>Téléphone: +225 05 94 26 24 22</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Yao KONAN. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        const scroll = new SmoothScroll('nav a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true,
+            easing: 'easeInOutQuart'
+        });
+        const scroll1 = new SmoothScroll('footer a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true,
+            easing: 'easeInOutQuart'
+        });
+    </script>
+</body>
+</html>
